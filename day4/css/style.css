@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: .8;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: 50px;
+}
+
+header p {
+    width: 400px;
+    height: 50px;
+}
+
+header p span {
+    padding: 0 15px;
+}
+
+header i {
+    font-size: 25px!important;
+}
+
+section {
+    flex: 8.4;
+}
+
+section .swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+section .sou {
+    widows: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+section .sou p {
+    height: 40px;
+    background: #ccc;
+    border-radius: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+section .sou p input {
+    border: none;
+    outline: none;
+    width: 75%;
+    background: #ccc;
+}
+
+section .sou>i {
+    font-size: 25px;
+    color: #ccc;
+}
+
+footer {
+    flex: .8;
+    background: pink;
+}

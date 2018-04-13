@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <p><span>精选</span><span>电视剧</span><span>电影</span><span>综艺</span><span>少儿</span></p>
+        <i class="iconfont">&#xe6f9;</i></header>
+    <section>
+        <div class="sou">
+            <p><i class="iconfont">&#xe729;</i><input type="text" placeholder="斗罗大陆"></p>
+            <i class="iconfont">&#xe72e;</i>
+            <i class="iconfont">&#xe707;</i>
+            <i class="iconfont">&#xe715;</i>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/img1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/img2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/img3.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+</body>
+<script src='./swiper.min.js'></script>
+<script src='./icon/iconfont.js'></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: 1000
+    })
+</script>
+
+</html>
