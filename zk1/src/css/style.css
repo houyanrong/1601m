@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    font-weight: 100;
+}
+
+header {
+    flex: .8;
+    background: #C4493C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 999;
+}
+
+header i {
+    color: #fff;
+    font-size: 24px!important;
+}
+
+header p {
+    width: 75%;
+    height: 60%;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p i {
+    color: #ccc;
+}
+
+header p input {
+    width: 80%;
+    height: 90%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+section {
+    flex: 8.4;
+    overflow-y: scroll;
+}
+
+section .tit {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9F9;
+}
+
+section .tit span {
+    width: 33.33%;
+    text-align: center;
+}
+
+section .banner {
+    width: 100%;
+    height: auto;
+}
+
+section .banner img {
+    width: 100%;
+    height: auto;
+}
+
+section .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section .icon p {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .icon p span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #C3483B;
+}
+
+section .icon p span i {
+    color: #C3483B;
+    font-size: 24px;
+}
+
+section .icon b {
+    line-height: 30px;
+}
+
+section h1 {
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 40px;
+}
+
+section .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .list dl {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+section .list dl dt {
+    width: 100%
+}
+
+section .list dl dt img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    flex: .8;
+    background: #333332;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p i {
+    font-size: 24px!important;
+    color: #ccc;
+}
+
+footer p span {
+    color: #ccc;
+}

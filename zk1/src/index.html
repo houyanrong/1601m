@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <i class="iconfont">&#xe62e;</i>
+        <p><i class="iconfont">&#xe729;</i><input type="text" placeholder="给你推荐 菩提偈"></p>
+        <i class="iconfont">&#xe6eb;</i>
+    </header>
+    <section>
+        <p class="tit">
+            <span>音乐</span><span>视频</span><span>电台</span>
+        </p>
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/img01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/img02.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/img03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/img04.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="icon">
+            <p><span><i class="iconfont">&#xe612;</i></span><b>私人FM</b></p>
+            <p><span><i class="iconfont">&#xe720;</i></span><b>每日推荐</b></p>
+            <p><span><i class="iconfont">&#xe726;</i></span><b>歌单</b></p>
+            <p><span><i class="iconfont">&#xe649;</i></span><b>排行榜</b></p>
+        </div>
+        <h1>推荐歌单 <i class="iconfont">&#xe723;</i></h1>
+        <div class="list">
+            <dl>
+                <dt><img src="./images/list01.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/list02.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/list03.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+        </div>
+        <div class="list">
+            <dl>
+                <dt><img src="./images/list01.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/list02.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+            <dl>
+                <dt><img src="./images/list03.jpg" alt=""></dt>
+                <dd>[初日偷懒漫游指南] ~ 精选</dd>
+            </dl>
+        </div>
+    </section>
+    <footer>
+        <p><i class="iconfont">&#xe6aa;</i><span>发现音乐</span></p>
+        <p><i class="iconfont">&#xe6ea;</i><span>我的音乐</span></p>
+        <p><i class="iconfont">&#xe6cd;</i><span>账号</span></p>
+        <p><i class="iconfont">&#xe6cc;</i><span>朋友</span></p>
+    </footer>
+</body>
+<script src='./icon/iconfont.js'></script>
+<script src='./swiper.min.js'></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: 1000
+    })
+</script>
+
+</html>
